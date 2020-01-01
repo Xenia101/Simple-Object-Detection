@@ -25,6 +25,8 @@ output_path = "./output/output.jpg"
 
 ## 예시
 
+Load Model & Detection
+
 ```python
 detector.setModelTypeAsYOLOv3()
 detector.setModelPath(model_path)
@@ -32,9 +34,16 @@ detector.loadModel()
 detection = detector.detectObjectsFromImage(input_image=input_path, output_image_path=output_path)
 ```
 
-- print percentage_probability & name of object
+Print percentage_probability & name of object
 
 ```python
 print(list(x["name"] for x in detection))
 print(list(x["percentage_probability"] for x in detection))
 ```
+
+Output
+
+<p align=center>
+  <img width="50%" src="https://github.com/Xenia101/Simple-Object-Detection/blob/master/input/sample_img.jpg?raw=true">
+  <img width="50%" src="https://github.com/Xenia101/Simple-Object-Detection/blob/master/output/output.jpg?raw=true">
+</p>
