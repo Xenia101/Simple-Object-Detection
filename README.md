@@ -23,7 +23,7 @@ output_path = "./output/output.jpg"
 
 5. Run
 
-## 예시
+## EXAMPLE
 
 Load Model & Detection
 
