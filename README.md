@@ -2,7 +2,7 @@
 
 Simple Object Detection in python
 
-## 사용 방법
+## USAGE
 
 1. download models [**yolo.h5** - YOLOv3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
 
