@@ -41,9 +41,14 @@ print(list(x["name"] for x in detection))
 print(list(x["percentage_probability"] for x in detection))
 ```
 
-Output
+Intput
 
 <p align=center>
   <img width="50%" src="https://github.com/Xenia101/Simple-Object-Detection/blob/master/input/sample_img.jpg?raw=true">
+</p>
+
+Output
+
+<p align=center>
   <img width="50%" src="https://github.com/Xenia101/Simple-Object-Detection/blob/master/output/output.jpg?raw=true">
 </p>
