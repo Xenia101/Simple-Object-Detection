@@ -1,6 +1,6 @@
 # Simple Object Detection
 
-Simple Object Detection in python
+A Simple Object Detection in python
 
 ## USAGE
 
