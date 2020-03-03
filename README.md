@@ -1,12 +1,12 @@
 # Simple Object Detection
 
-A Simple Object Detection in python
+A Simple **Object Detection** in python
 
 ## USAGE
 
 1. download models [**yolo.h5** - YOLOv3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
 
-2. Save the file in ./models
+2. Save the file in ```./models```
 
 3. Add to path
 
@@ -41,13 +41,13 @@ print(list(x["name"] for x in detection))
 print(list(x["percentage_probability"] for x in detection))
 ```
 
-Intput
+**Intput**
 
 <p align=center>
   <img width="50%" src="https://github.com/Xenia101/Simple-Object-Detection/blob/master/input/sample_img.jpg?raw=true">
 </p>
 
-Output
+**Output**
 
 <p align=center>
   <img width="50%" src="https://github.com/Xenia101/Simple-Object-Detection/blob/master/output/output.jpg?raw=true">
